@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Corvinus.Data.Serialization", "src\Corvinus.Data.Serialization.csproj", "{F1E189D7-3C86-4D0B-8C7E-F3202A46B41B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Corvinus.Data.Serialization.Test.Unit", "tests\Corvinus.Data.Serialization.Test.Unit\Corvinus.Data.Serialization.Test.Unit.csproj", "{93B54ADC-FCA0-4B35-B23D-D33170FDC755}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1E189D7-3C86-4D0B-8C7E-F3202A46B41B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E189D7-3C86-4D0B-8C7E-F3202A46B41B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E189D7-3C86-4D0B-8C7E-F3202A46B41B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E189D7-3C86-4D0B-8C7E-F3202A46B41B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B54ADC-FCA0-4B35-B23D-D33170FDC755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B54ADC-FCA0-4B35-B23D-D33170FDC755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B54ADC-FCA0-4B35-B23D-D33170FDC755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B54ADC-FCA0-4B35-B23D-D33170FDC755}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84ABE11E-F67F-4A2B-9889-9AA948D3425B}
+	EndGlobalSection
+EndGlobal

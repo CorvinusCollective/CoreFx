@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Description>Corvinus Net Library</Description>
+    <RootNamespace>Corvinus.Net</RootNamespace>
+    <AssemblyName>Corvinus.Net</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <OutputPath>$(RepoRoot)publish\bin\$(Configuration)\$(Platform)\$(TargetFramework)\$(AssemblyName)</OutputPath>
+  </PropertyGroup>
+
+</Project>

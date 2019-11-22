@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Description>Corvinus Data Serialization Library</Description>
+    <RootNamespace>Corvinus.Data.Serialization</RootNamespace>
+    <AssemblyName>Corvinus.Data.Serialization</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <OutputPath>$(RepoRoot)publish\bin\$(Configuration)\$(Platform)\$(TargetFramework)\$(AssemblyName)</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+</Project>
