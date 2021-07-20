@@ -1,12 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
-    <Description>Corvinus Collections Library</Description>
+    <TargetFramework>net5.0</TargetFramework>
+    <Description>Corvinus Collections Library. Contains Extensions and New Collection Objects Compatible With .NET 5.</Description>
     <RootNamespace>Corvinus.Collections</RootNamespace>
     <AssemblyName>Corvinus.Collections</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <OutputPath>$(RepoRoot)publish\bin\$(Configuration)\$(Platform)\$(TargetFramework)\$(AssemblyName)</OutputPath>
+    <AssemblyVersion>$(RepoBuildVersion)</AssemblyVersion>
   </PropertyGroup>
 
 </Project>

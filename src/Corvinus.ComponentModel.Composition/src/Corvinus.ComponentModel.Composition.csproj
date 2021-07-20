@@ -1,16 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <Description>Corvinus Composition Library</Description>
     <RootNamespace>Corvinus.ComponentModel.Composition</RootNamespace>
     <AssemblyName>Corvinus.ComponentModel.Composition</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <OutputPath>$(RepoRoot)publish\bin\$(Configuration)\$(Platform)\$(TargetFramework)\$(AssemblyName)</OutputPath>
+    <AssemblyVersion>$(RepoBuildVersion)</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.ComponentModel.Composition" Version="4.5.0" />
+    <PackageReference Include="System.ComponentModel.Composition" Version="5.0.0" />
   </ItemGroup>
 
 </Project>
