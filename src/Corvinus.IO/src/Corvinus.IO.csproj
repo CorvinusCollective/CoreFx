@@ -7,7 +7,6 @@
     <AssemblyName>Corvinus.IO</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <OutputPath>$(RepoRoot)publish\bin\$(Configuration)\$(Platform)\$(TargetFramework)\$(AssemblyName)</OutputPath>
-    <AssemblyVersion>$(RepoBuildVersion)</AssemblyVersion>
   </PropertyGroup>
 
 </Project>

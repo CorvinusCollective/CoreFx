@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="$(SolutionDir)common\Corvinus-Logo.png">
+    <None Include="$(SolutionDir)common\Corvinus-Logo.png" Visible="false">
       <Pack>True</Pack>
       <PackagePath>\Corvinus-Logo.png</PackagePath>
     </None>
