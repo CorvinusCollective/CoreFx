@@ -12,7 +12,7 @@
     <Copyright>Copyright © $(Company) 2019. All rights reserved.</Copyright>
     <LangVersion>latest</LangVersion>
     <NoWarn>NU5105</NoWarn>
-    <PackageLicense>https://github.com/Biomancer81/Corvinus/blob/master/LICENSE</PackageLicense>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/Biomancer81/Corvinus</PackageProjectUrl>
     <PackageIcon>Corvinus-Logo.png</PackageIcon>
   </PropertyGroup>
