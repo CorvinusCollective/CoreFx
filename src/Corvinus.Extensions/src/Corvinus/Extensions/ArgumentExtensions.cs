@@ -9,10 +9,7 @@ namespace Corvinus.Extensions
     using System.Linq;
 
     /// <summary>
-    /// ConsoleRedirect allows a user to redirect the console output to any
-    /// source they want through the constructor parameter redirectDelegate.
-    /// The delegate will perform actions on a single string as it is automatically
-    /// read from the QueueWriter.
+    /// Extension methods for asserting and validating arguments.
     /// </summary>
     public static class ArgumentExtensions
     {
